@@ -5,11 +5,10 @@ body {
 }
 /* elements*/
 button{
-    margin: 5px 5px;
-    padding: 10px 100px;
+    padding: 10px 50px;
     position: relative;
     border: 2px solid rgb(255, 0, 242);
-    border-radius: 10px;
+    border-radius: 50px;
     background: #ffffff00;
     color: rgb(255, 0, 242);
     font-size: 16px;
@@ -74,14 +73,20 @@ a{
     border-width: 3px;
 }
 
-
+.topBar{
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #181818;
+    border-radius: 100px;
+    text-align: center;
+    position: relative;
+}
 
 
 #discordContactDiv {
     padding-top: 5px;
     padding-bottom: 15px;
-    margin-right: 150px;
-    margin-left: 150px;
+
     border-radius: 100px;
     background: #181818;
 }
