@@ -1,8 +1,38 @@
 body {
     background-color: #131313 ;
+    text-align: center;
+    
+}
+/* elements*/
+button{
+    margin: 5px 5px;
+    padding: 10px 100px;
+    position: relative;
+    border: 2px solid rgb(255, 0, 242);
+    border-radius: 10px;
+    background: #ffffff00;
+    color: rgb(255, 0, 242);
+    font-size: 16px;
+    cursor: pointer;
+}
+ul {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: normal; 
+}
+a{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: normal;
+    text-decoration: none;
+    padding-right: 5px;
 }
 
-
+/* text sizes */
 .largeText{
     color: white;
     text-align: center;
@@ -42,4 +72,16 @@ body {
 .devidor{
     border-image: linear-gradient(to left,blue,red)1 ;
     border-width: 3px;
+}
+
+
+
+
+#discordContactDiv {
+    padding-top: 5px;
+    padding-bottom: 15px;
+    margin-right: 150px;
+    margin-left: 150px;
+    border-radius: 100px;
+    background: #181818;
 }
