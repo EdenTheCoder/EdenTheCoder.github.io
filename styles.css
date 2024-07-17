@@ -6,12 +6,14 @@ body {
 
 a{
     text-decoration: none;
+
 }
 /* elements*/
 button{
     
     margin: 5px 5px;
-    padding: 10px 100px;
+    min-height: 45px;
+    min-width: 250px;
     transition: 200ms ease-in-out;
     
     border: 2px solid rgb(255, 0, 242);
@@ -21,6 +23,8 @@ button{
     font-size: 16px;
     cursor: pointer;
     font-weight: normal; 
+    font-size: 20px;
+    padding: 10px;
 }
 button:hover{
     transform: scale(0.95);
@@ -100,4 +104,16 @@ button:active{
 
     border-radius: 100px;
     background: #181818;
+}
+.Project_CON{
+    background: #0000003a;
+    max-width: 500px;
+    height: 250px;
+    border: solid;
+    border-radius: 100px;
+    margin: 10px;
+}
+.Project_Grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,550px);
 }
